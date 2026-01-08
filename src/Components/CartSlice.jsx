@@ -1,5 +1,9 @@
+import {createSlice} from "react-redux";
+const initialState = {
+    cartItems: [],
+};
 
-const CartSlice = ({
+const CartSlice = createSlice({
  
 });
 
